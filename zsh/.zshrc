@@ -29,3 +29,8 @@ if ! zgen saved; then
   # save
   zgen save
 fi
+
+# sharing history is not for me
+# https://superuser.com/questions/410965/command-history-in-zsh
+unsetopt share_history
+
