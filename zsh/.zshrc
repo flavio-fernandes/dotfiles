@@ -24,7 +24,7 @@ if ! zgenom saved; then
 
   # load other stuff
   zgenom load junegunn/fzf shell
-  zgenom load mattmc3/zshrc.d
+  ## echo flaviof comment this out -- zgenom load mattmc3/zshrc.d
 
   # save
   zgenom save
