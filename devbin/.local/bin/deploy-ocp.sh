@@ -24,7 +24,7 @@ declare -A DEFAULT_REGIONS
 DEFAULT_REGIONS[aws]="us-east-1"
 DEFAULT_REGIONS[gcp]="us-east1"
 
-generated_cluster_name="jcaamano.${tag}.$(date +'%Y%m%d%H%M')"
+generated_cluster_name="flaviof.${tag}.$(date +'%Y%m%d%H%M')"
 
 CLUSTER_DIR="${CLUSTER_DIR:-/vagrant/work/clusters/${platform}/}"
 INSTALL_CONFIG="${INSTALL_CONFIG:-${CLUSTER_DIR}/install-config.yaml}"
