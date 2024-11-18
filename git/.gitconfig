@@ -5,3 +5,5 @@
 	email = jcaamano@redhat.com
 [credential "https://github.com"]
 	helper = !gh auth git-credential
+[safe]
+	directory = ~/*
