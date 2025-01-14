@@ -3,6 +3,8 @@
 [user]
     name = Flavio Fernandes
     #email = flavio@flaviof.com
-    email = flaviof@redhat.com
+    email = ffernandes@nvidia.com
 [credential "https://github.com"]
     helper = !gh auth git-credential
+[safe]
+    directory = ~/*
